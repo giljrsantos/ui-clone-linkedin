@@ -60,6 +60,7 @@ Você também verá os erros no console.
 <p align="center">
 <img src="./src/assets/screen-1.png">
 <img src="./src/assets/screen-2.png">
+<img src="./src/assets/screen-3.png">
 </p>
 
 
