@@ -1,0 +1,61 @@
+import React from 'react';
+
+import { 
+    Container, 
+    Wrapper, 
+    LinkedInIcon, 
+    SearchInput, 
+    HomeIcon,
+    MyNetWorkingIcon,
+    JobsIcon,
+    ChatMessage,
+    NotificationsIcon, 
+    ProfileCircle, 
+    CaretDownIcon,
+ } from './styles';
+
+const DesktoHeader: React.FC = () => {
+  return (
+      <Container>
+          <Wrapper>
+              <div className="left">
+                  <LinkedInIcon />
+                  <SearchInput placeholder="Pesquisar"/>
+              </div>
+
+              <div className="right">
+                  <nav>
+                      <button className="active">
+                          <HomeIcon />
+                          <span>Início</span>
+                      </button>
+                      <button>
+                          <MyNetWorkingIcon />
+                          <span>Minha Rede</span>
+                      </button>                      
+                      <button>
+                          <JobsIcon />
+                          <span>Vagas</span>
+                      </button>                      
+                      <button>
+                          <ChatMessage />
+                          <span>Mensagens</span>
+                      </button>                      
+                      <button>
+                          <NotificationsIcon />
+                          <span>Notificações</span>
+                      </button>
+                      <button>
+                          <ProfileCircle src="https://github.com/giljrsantos.png" />
+                          <span>
+                              Eu <CaretDownIcon />
+                          </span>
+                      </button>
+                  </nav>
+              </div>
+          </Wrapper>
+      </Container>
+  );
+}
+
+export default DesktoHeader;
