@@ -58,9 +58,9 @@ Você também verá os erros no console.
 
 ## 💻 Web
 <p align="center">
-<img src="./src/assets/screen-1.png">
-<img src="./src/assets/screen-2.png">
-<img src="./src/assets/screen-3.png">
+<img src="https://github.com/giljrsantos/ui-clone-linkedin/blob/master/src/assets/screen-1.png">
+<img src="https://github.com/giljrsantos/ui-clone-linkedin/blob/master/src/assets/screen-2.png">
+<img src="https://github.com/giljrsantos/ui-clone-linkedin/blob/master/src/assets/screen-3.png">
 </p>
 
 
